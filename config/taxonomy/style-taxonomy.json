@@ -1,0 +1,71 @@
+{
+  "topCategories": {
+    "2d-anime": {
+      "label": "2D动漫",
+      "subcategories": {
+        "shonen": "少年热血",
+        "shojo": "少女系",
+        "isekai": "异世界",
+        "mecha": "机甲科幻",
+        "fantasy": "奇幻冒险",
+        "slice-of-life": "日常治愈",
+        "idol": "偶像舞台",
+        "school": "校园青春",
+        "retro-cel": "复古赛璐珞",
+        "dark-fantasy": "暗黑奇幻",
+        "chibi": "Q版可爱",
+        "fashion-illustration": "时尚插画"
+      }
+    },
+    "3d": {
+      "label": "3D",
+      "subcategories": {
+        "stylized-character": "风格化角色",
+        "toon-render": "卡通渲染",
+        "game-hero": "游戏角色",
+        "cinematic-cg": "电影级 CG",
+        "cute-mascot": "可爱吉祥物",
+        "product-visual": "产品视觉"
+      }
+    },
+    "real-human": {
+      "label": "真人",
+      "subcategories": {
+        "home-lifestyle": "居家生活感",
+        "outdoor-street": "户外街拍",
+        "studio-portrait": "棚拍肖像",
+        "fashion-editorial": "时尚 editorial",
+        "commercial-headshot": "商业头像",
+        "travel-story": "旅行叙事"
+      }
+    }
+  },
+  "axes": {
+    "scene": {
+      "indoor-home": "居家",
+      "outdoor": "户外",
+      "studio": "棚拍",
+      "street": "街头",
+      "nature": "自然场景",
+      "minimal-bg": "纯背景"
+    },
+    "skinTone": {
+      "light": "白皮肤",
+      "warm-yellow": "黄皮肤",
+      "dark": "黑皮肤"
+    },
+    "appeal": {
+      "cute": "可爱",
+      "sexy": "性感",
+      "elegant": "优雅",
+      "cool": "冷感",
+      "energetic": "元气",
+      "luxury": "高级感"
+    },
+    "subject": {
+      "female": "女性",
+      "male": "男性",
+      "androgynous": "中性"
+    }
+  }
+}

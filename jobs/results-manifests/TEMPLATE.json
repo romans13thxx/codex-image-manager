@@ -1,0 +1,42 @@
+{
+  "jobName": "2026-04-22-demo-batch",
+  "jobDate": "2026-04-22",
+  "reportName": "2026-04-22-demo-batch-selection-report.md",
+  "entries": [
+    {
+      "sequence": 1,
+      "promptId": "demo-2d-001",
+      "title": "2D 动漫少女热血风",
+      "topCategory": "2d-anime",
+      "subCategory": "shonen",
+      "scene": "minimal-bg",
+      "skinTone": "light",
+      "appeal": "energetic",
+      "subject": "female",
+      "sourceFiles": [],
+      "selectedSourceIndex": 1,
+      "selectionReason": "主角识别度高，动作张力足够。",
+      "failureReasons": [
+        "v2 构图太满",
+        "v3 手部细节不足"
+      ]
+    },
+    {
+      "sequence": 2,
+      "promptId": "demo-real-001",
+      "title": "真人居家可爱肖像",
+      "topCategory": "real-human",
+      "subCategory": "home-lifestyle",
+      "scene": "indoor-home",
+      "skinTone": "warm-yellow",
+      "appeal": "cute",
+      "subject": "female",
+      "sourceFiles": [],
+      "selectedSourceIndex": 1,
+      "selectionReason": "氛围自然，生活感和亲和力稳定。",
+      "failureReasons": [
+        "v2 表情过硬"
+      ]
+    }
+  ]
+}

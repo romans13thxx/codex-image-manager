@@ -1,0 +1,60 @@
+{
+  "projectName": "awesome-gpt-image-2-prompts-local-workflow",
+  "promptSources": [
+    "gpt_image2_prompts.json",
+    "workflow/prompts/inbox",
+    "workflow/prompts/queue"
+  ],
+  "output": {
+    "draftDir": "workflow/output/images",
+    "selectedDir": "workflow/output/selected",
+    "reportDir": "workflow/output/reports",
+    "jobDir": "workflow/jobs",
+    "logDir": "workflow/logs",
+    "dailySubfolder": true
+  },
+  "memory": {
+    "root": "workflow/memory",
+    "permanent": "workflow/memory/permanent-memory.md",
+    "userPreferences": "workflow/memory/user-preferences.md",
+    "permanentRoot": "workflow/memory/permanent",
+    "preferencesRoot": "workflow/memory/preferences",
+    "journalRoot": "workflow/memory/journals",
+    "dailyJournalDir": "workflow/memory/journals/daily",
+    "lessonsRoot": "workflow/memory/lessons",
+    "projectsRoot": "workflow/memory/projects"
+  },
+  "taxonomy": {
+    "path": "workflow/config/taxonomy/style-taxonomy.json",
+    "topCategories": [
+      "2d-anime",
+      "3d",
+      "real-human"
+    ]
+  },
+  "generationDefaults": {
+    "variantsPerPrompt": 3,
+    "selectedCount": 1,
+    "filenamePrefix": "img",
+    "numberWidth": 3,
+    "aspectRatio": "1024x1536",
+    "namingPattern": "{prefix}-{sequence}-{topCategory}-{subCategory}-{scene}-{skinTone}-{appeal}-{subject}",
+    "qualityBar": [
+      "主体一致性",
+      "构图完成度",
+      "材质与细节",
+      "文字与水印控制",
+      "可交付性"
+    ]
+  },
+  "reviewPolicy": {
+    "rejectIf": [
+      "主体失真",
+      "肢体错误",
+      "文字乱码",
+      "水印",
+      "构图严重拥挤"
+    ],
+    "promoteMemoryAfterRepeats": 3
+  }
+}

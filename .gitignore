@@ -1,0 +1,33 @@
+# Editor and Python cache
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Local-only config overrides
+config/*.local.json
+
+# Runtime logs
+logs/*
+!logs/README.md
+
+# Generated prompt working files
+prompts/inbox/*
+!prompts/inbox/README.md
+prompts/queue/*
+!prompts/queue/README.md
+
+# Generated job artifacts
+jobs/results-manifests/*.normalized.json
+
+# Daily/weekly/monthly journals created during execution
+memory/journals/daily/[0-9]*/
+memory/journals/weekly/[0-9]*/
+memory/journals/monthly/[0-9]*/
+
+# Generated outputs; keep structure docs only
+output/images/**
+!output/images/README.md
+output/selected/**
+!output/selected/README.md
+output/reports/**
+!output/reports/README.md
