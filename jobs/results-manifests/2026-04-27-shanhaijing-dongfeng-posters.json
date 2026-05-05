@@ -1,0 +1,54 @@
+{
+  "jobName": "2026-04-27-shanhaijing-dongfeng-posters",
+  "status": "dry_run_passed_not_generated",
+  "blocker": "OPENAI_API_KEY is not set in the current shell, so live GPT Image 2 generation was not run.",
+  "sourceFiles": [
+    "tmp/imagegen/2026-04-27-shanhaijing-dongfeng-posters.jsonl"
+  ],
+  "intendedOutputDir": "output/imagegen/2026-04-27-shanhaijing-dongfeng-posters",
+  "model": "gpt-image-2",
+  "quality": "high",
+  "requiredTotal": 60,
+  "themes": [
+    "zhulong",
+    "dijiang",
+    "luwu",
+    "kaiming-shou",
+    "qiongqi",
+    "taowu",
+    "taotie",
+    "kui-niu",
+    "bifang",
+    "fenghuang",
+    "lushu",
+    "chenghuang",
+    "yingzhao",
+    "tiangou",
+    "zheng",
+    "gudiao",
+    "xuangui",
+    "wenyaoyu",
+    "feiyi",
+    "fuzhu"
+  ],
+  "aspectJobs": {
+    "16x9": {
+      "size": "2048x1152",
+      "count": 20
+    },
+    "9x16": {
+      "size": "1152x2048",
+      "count": 20
+    },
+    "4x3": {
+      "size": "2048x1536",
+      "count": 20
+    }
+  },
+  "selectedSourceIndex": null,
+  "selectionReason": null,
+  "failureReasons": [
+    "No live image generation because OPENAI_API_KEY is missing.",
+    "Dry-run passed: the CLI read 60 jobs and computed 60 output paths."
+  ]
+}

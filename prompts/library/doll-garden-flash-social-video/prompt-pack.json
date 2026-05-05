@@ -1,0 +1,57 @@
+{
+  "id": "doll-garden-flash-social-video",
+  "createdAt": "2026-05-03",
+  "source": "user-provided reference images",
+  "reusePolicy": "Use style, composition, props, and lighting only. Do not copy the original person's identity, exact face, exact screenshots, or any platform UI.",
+  "taxonomy": {
+    "topCategory": "real-human",
+    "subCategory": "home-lifestyle",
+    "scene": "flower-sunroom",
+    "skinTone": "light",
+    "appeal": "cute",
+    "subject": "female"
+  },
+  "styleAnchors": [
+    {
+      "id": "P007",
+      "tokens": "disposable camera flash photo"
+    },
+    {
+      "id": "P028",
+      "tokens": "toy camera vignette, Holga-style"
+    },
+    {
+      "id": "A007",
+      "tokens": "early-2000s visual novel CG background"
+    },
+    {
+      "id": "A002",
+      "tokens": "1990s shoujo manga screentone, sparkles, used as emotional influence only"
+    },
+    {
+      "id": "S009",
+      "tokens": "lo-fi agrivoltaic solarpunk greenhouse"
+    },
+    {
+      "id": "F007",
+      "tokens": "mori girl forest catalog"
+    },
+    {
+      "id": "M009",
+      "tokens": "frosted acrylic, translucent plastic"
+    },
+    {
+      "id": "M010",
+      "tokens": "opalescent iridescence, oil-slick shimmer"
+    }
+  ],
+  "corePrompt": "Use the reference set only for style grammar, not identity. Create a new fictional adult woman in a flower-filled glass sunroom cafe. She has long dusty pink-blonde wavy hair, doll-like but natural adult facial proportions, porcelain-soft makeup, glossy eyes, and wears a powder blue chiffon dress with a white lace camisole edge and 1-2 delicate silver or pearl accessories. Build the frame with layered glass, lace curtains, white wrought-iron furniture, pastel flowers, transparent floral umbrella props, and garden greenery. Lighting is direct compact-camera flash mixed with daylight, high-key slight overexposure, pastel powder blue/dusty pink/lavender/peach/white palette, controlled grain and glass reflections. Clean image only with no app interface overlay.",
+  "negative": "avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, avoid copying the reference person's exact face, avoid app UI, avoid search bar, avoid play button, avoid like icons, avoid comment icons, avoid share icons, avoid right-side icon stack, avoid bottom captions, avoid dates, avoid hashtags, avoid usernames, avoid real app logos, avoid watermark, avoid childlike body, avoid excessive accessories, avoid clutter covering the face, avoid oversexualized styling",
+  "variants": [
+    "seated table pose, hand at cheek, flowers and mirror balancing the left side",
+    "full-body transparent umbrella pose in a white glasshouse doorway",
+    "canted close-up under transparent floral umbrella, umbrella canopy as background",
+    "behind-glass plush counter pose with note wall and framed flower painting",
+    "clean no-UI editorial table portrait, hand near lips and lace table foreground"
+  ]
+}

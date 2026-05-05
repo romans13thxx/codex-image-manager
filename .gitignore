@@ -31,3 +31,10 @@ output/selected/**
 !output/selected/README.md
 output/reports/**
 !output/reports/README.md
+output/backups/**
+!output/backups/README.md
+output/imagegen/**
+output/references/**
+output/paper_figures/**
+outputs/
+tmp/

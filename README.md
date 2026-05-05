@@ -18,9 +18,11 @@ workflow/
 ├─ prompts/
 │  ├─ inbox/                # 新提示词草稿、临时想法、待整理素材
 │  └─ queue/                # 导出的标准任务队列
+│  └─ library/              # 长期提示词库，按 Markdown + 配图归档
 ├─ jobs/                    # 每次批量出图的任务单
 │  └─ results-manifests/    # 批量命名、结果汇总和选图报告的输入清单
 ├─ output/
+│  ├─ backups/              # Codex / 外部生成结果的原始备份副本
 │  ├─ images/               # 原始批量输出，按类别归档
 │  ├─ selected/             # 最终选中的图片，按类别归档
 │  └─ reports/              # 选图报告和汇总结果
@@ -50,7 +52,16 @@ workflow/
 ### 1. 收集提示词
 
 - 把临时想法、新主题、新客户需求丢进 `workflow/prompts/inbox/`。
+- 长期参考案例放在 `workflow/prompts/library/`，优先保留 Markdown 文档和结果图，方便浏览和改写。
 - 如果直接复用仓库数据源，则从 `gpt_image2_prompts.json` 导出标准队列。
+
+如果要把相邻仓库 `awesome-gpt-image-2-prompts/` 的案例库同步进来，运行：
+
+```bash
+python scripts/sync_awesome_prompt_library.py
+```
+
+脚本会在 `workflow/prompts/library/awesome-gpt-image-2/` 下生成分类索引、单 case Markdown 文档，以及对应的结果图。
 
 ### 2. 生成任务队列
 
@@ -92,6 +103,22 @@ python workflow/scripts/organize_batch_outputs.py --manifest workflow/jobs/resul
 3. 输出选图报告和结果汇总，并在任何一条缺失 taxonomy 轴时打印 `[warn]`。加 `--strict` 时直接报错退出。
 
 如果 manifest 里带了真实图片路径，它还会把图片复制到对应分类目录。
+
+### 4.2 把 Codex 产图复制回 workflow 备份
+
+如果图片先产生在 Codex 的外部目录，不要手工乱贴到 `output/images/`。先运行：
+
+```bash
+python scripts/import_codex_outputs.py --source "C:/path/to/codex-output" --job-name "2026-04-22-home-lifestyle-codex-batch" --title "Codex home lifestyle batch" --top-category real-human --sub-category home-lifestyle --scene indoor-home --skin-tone warm-yellow --appeal cute --subject female
+```
+
+这个脚本会做三件事：
+
+1. 先把原始图片复制到 `workflow/output/backups/codex/<日期>/<jobName>/`。
+2. 自动生成对应的 `workflow/jobs/results-manifests/<jobName>.json`。
+3. 默认继续调用 `organize_batch_outputs.py`，把图片按现有 taxonomy 归档进 `output/images/` 和 `output/selected/`。
+
+只想先备份不归档时，加 `--no-organize`。只想预演路径和 manifest 时，加 `--dry-run`。
 
 ### 4.5 新建项目记忆
 

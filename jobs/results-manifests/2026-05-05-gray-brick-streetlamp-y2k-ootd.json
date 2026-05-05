@@ -1,0 +1,97 @@
+{
+  "jobName": "2026-05-05-gray-brick-streetlamp-y2k-ootd",
+  "jobDate": "2026-05-05",
+  "reportName": "2026-05-05-gray-brick-streetlamp-y2k-ootd-selection-report.md",
+  "sourceType": "codex-imagegen",
+  "promptFile": "workflow/output/references/social/2026-05-05-gray-brick-streetlamp-y2k-ootd/generation-prompts.jsonl",
+  "backupDir": "workflow/output/backups/codex/2026-05-05/2026-05-05-gray-brick-streetlamp-y2k-ootd",
+  "entries": [
+    {
+      "sequence": 1,
+      "promptId": "2026-05-05-gray-brick-streetlamp-y2k-ootd-01-gray-brick-doorway-lamp-lean",
+      "title": "Gray brick doorway lamp lean",
+      "topCategory": "real-human",
+      "subCategory": "outdoor-street",
+      "scene": "street",
+      "skinTone": "light",
+      "appeal": "cool",
+      "subject": "female",
+      "prompt": "Use case: photorealistic-natural\nAsset type: vertical 9:16 social-fashion image for 2026-05-05-gray-brick-streetlamp-y2k-ootd\nPrimary request: create one original image with the same subject grammar as the provided references: adult Y2K streetwear OOTD, gray-brick old street, black lamp pole, direct flash, white sleeveless crop tank, heavily distressed baggy jeans. It must not be an identical copy.\nSubject: fictional non-identifiable adult East Asian female fashion model, clearly 22+, long dark-brown loose hair, dark washed newsboy cap, clear face, cool calm expression, real human proportions, natural hands.\nOutfit: white sleeveless cropped graphic tank with abstract unreadable print, black choker, thin layered necklace, white belt, oversized light-wash baggy jeans with heavy ripped panels and frayed openings, black platform sandals, silver shoulder bag, black wrist cuff, rings and bracelets, phone in hand.\nScene/backdrop: a quiet old gray-brick lane at night, dark wooden doorway, black streetlamp pole beside the subject, uneven stone sidewalk, anonymous address plate with unreadable numbers.\nComposition/framing: full-body OOTD stance, leaning lightly near the lamp pole, one thumb hooked in the jean pocket, the other hand holding a phone and small silver bag, legs relaxed but not copied from the reference; vertical 9:16 phone-photo crop, 28mm compact-camera perspective, full outfit readable, camera slightly below eye level.\nStyle/medium: photorealistic compact-camera night street editorial, Xiaohongshu/Douyin OOTD energy without app UI, direct-flash snapshot, cross-processed cool blue-gray shadows, detailed brick and denim texture, slight phone-camera grain.\nLighting/mood: hard on-camera flash lighting the model, cool blue-gray brick shadows, very dark background falloff, realistic night street snapshot.\nReference tag mood: #Y2K穿搭 #辣妹穿搭 #破洞牛仔裤穿搭 #街拍 #夜景街拍 #闪光灯拍照 #老街拍照 #路灯拍照 #OOTD #fitcheck #轻亚辣妹y2k穿搭 #轻熟穿搭 #晒出你的辣妹穿搭 #我的春日穿搭look #今日穿搭look #ootd穿搭只为取悦自己 #牛仔 #y2k.\nRequired variation: change the doorway layout, change the street number, shift the lamp pole to a different side, use a new face and new hand placement.\nRare-style layer: nocturnal direct-flash street editorial, cross-processed slide-film color, urban texture realism, compact-camera fit-check framing.\nConstraints: original non-identifiable model only; same outfit category and scene language, but different face, pose, wall geometry, lamp position, crop, and micro-accessories; no exact source image recreation.\nAvoid: avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, no minors, no teen-coded body, no celebrity likeness, no creator likeness, no watermark, no readable social app UI, no readable street number, no brand logos, no duplicated limbs, no broken fingers, no deformed shoes, no plastic skin, no extreme sexualized pose.",
+      "referenceFile": "workflow/output/references/social/2026-05-05-gray-brick-streetlamp-y2k-ootd/reference-001.jpg",
+      "referenceSourceUrl": "https://tw.bid.yahoo.com/item/101641349046",
+      "sourceFiles": [
+        "workflow/output/images/2026-05-05/real-human/outdoor-street/street/light/cool/img-001-real-human-outdoor-street-street-light-cool-female-v1.png"
+      ],
+      "backupFiles": [
+        "workflow/output/backups/codex/2026-05-05/2026-05-05-gray-brick-streetlamp-y2k-ootd/001-2026-05-05-gray-brick-streetlamp-y2k-ootd-01-gray-brick-doorway-lamp-lean.png"
+      ],
+      "stagingFiles": [
+        "workflow/output/imagegen/2026-05-05-gray-brick-streetlamp-y2k-ootd/001-2026-05-05-gray-brick-streetlamp-y2k-ootd-01-gray-brick-doorway-lamp-lean.png"
+      ],
+      "selectedFile": "workflow/output/selected/2026-05-05/real-human/outdoor-street/street/light/cool/img-001-real-human-outdoor-street-street-light-cool-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Selected as the first-pass output for this prompt: it preserves the adult Y2K gray-brick streetlamp OOTD subject, fit-check readability, and original non-identifiable model constraint.",
+      "failureReasons": [
+        "Manual visual QA is still recommended for hands, face, readable text, and accidental platform UI before publishing."
+      ]
+    },
+    {
+      "sequence": 2,
+      "promptId": "2026-05-05-gray-brick-streetlamp-y2k-ootd-02-dusk-globe-lamp-fitcheck",
+      "title": "Dusk globe lamp fit check",
+      "topCategory": "real-human",
+      "subCategory": "outdoor-street",
+      "scene": "street",
+      "skinTone": "light",
+      "appeal": "cool",
+      "subject": "female",
+      "prompt": "Use case: photorealistic-natural\nAsset type: vertical 9:16 social-fashion image for 2026-05-05-gray-brick-streetlamp-y2k-ootd\nPrimary request: create one original image with the same subject grammar as the provided references: adult Y2K streetwear OOTD, gray-brick old street, black lamp pole, direct flash, white sleeveless crop tank, heavily distressed baggy jeans. It must not be an identical copy.\nSubject: fictional non-identifiable adult East Asian female fashion model, clearly 22+, long dark-brown loose hair, dark washed newsboy cap, clear face, cool calm expression, real human proportions, natural hands.\nOutfit: white sleeveless cropped graphic tank with abstract unreadable print, black choker, thin layered necklace, white belt, oversized light-wash baggy jeans with heavy ripped panels and frayed openings, black platform sandals, silver shoulder bag, black wrist cuff, rings and bracelets, phone in hand.\nScene/backdrop: urban roadside at blue-hour dusk, a tall black lamp pole with a glowing round globe above, peach-purple sky, dark building silhouettes, distant car light streaks, no readable storefronts.\nComposition/framing: standing fit-check pose directly under the lamp, shoulders squared, one knee slightly forward, one hand resting on belt loop, the other hand holding the phone at thigh level; vertical 9:16 social-fashion frame, full-body centered, enough sky above to show the glowing lamp, compact phone-camera realism.\nStyle/medium: photorealistic compact-camera night street editorial, Xiaohongshu/Douyin OOTD energy without app UI, direct-flash snapshot, cross-processed cool blue-gray shadows, detailed brick and denim texture, slight phone-camera grain.\nLighting/mood: mix of warm globe light, fading sunset sky, and direct flash on face and outfit, high contrast but clean skin texture.\nReference tag mood: #Y2K穿搭 #辣妹穿搭 #破洞牛仔裤穿搭 #街拍 #夜景街拍 #闪光灯拍照 #老街拍照 #路灯拍照 #OOTD #fitcheck #轻亚辣妹y2k穿搭 #轻熟穿搭 #晒出你的辣妹穿搭 #我的春日穿搭look #今日穿搭look #ootd穿搭只为取悦自己 #牛仔 #y2k.\nRequired variation: make the skyline and lamp head different, avoid the exact same stance, use a fictional non-identifiable adult model.\nRare-style layer: nocturnal direct-flash street editorial, cross-processed slide-film color, urban texture realism, compact-camera fit-check framing.\nConstraints: original non-identifiable model only; same outfit category and scene language, but different face, pose, wall geometry, lamp position, crop, and micro-accessories; no exact source image recreation.\nAvoid: avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, no minors, no teen-coded body, no celebrity likeness, no creator likeness, no watermark, no readable social app UI, no readable street number, no brand logos, no duplicated limbs, no broken fingers, no deformed shoes, no plastic skin, no extreme sexualized pose.",
+      "referenceFile": "workflow/output/references/social/2026-05-05-gray-brick-streetlamp-y2k-ootd/reference-002.jpg",
+      "referenceSourceUrl": "https://zhuanlan.zhihu.com/p/533042695",
+      "sourceFiles": [
+        "workflow/output/images/2026-05-05/real-human/outdoor-street/street/light/cool/img-002-real-human-outdoor-street-street-light-cool-female-v1.png"
+      ],
+      "backupFiles": [
+        "workflow/output/backups/codex/2026-05-05/2026-05-05-gray-brick-streetlamp-y2k-ootd/002-2026-05-05-gray-brick-streetlamp-y2k-ootd-02-dusk-globe-lamp-fitcheck.png"
+      ],
+      "stagingFiles": [
+        "workflow/output/imagegen/2026-05-05-gray-brick-streetlamp-y2k-ootd/002-2026-05-05-gray-brick-streetlamp-y2k-ootd-02-dusk-globe-lamp-fitcheck.png"
+      ],
+      "selectedFile": "workflow/output/selected/2026-05-05/real-human/outdoor-street/street/light/cool/img-002-real-human-outdoor-street-street-light-cool-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Selected as the first-pass output for this prompt: it preserves the adult Y2K gray-brick streetlamp OOTD subject, fit-check readability, and original non-identifiable model constraint.",
+      "failureReasons": [
+        "Manual visual QA is still recommended for hands, face, readable text, and accidental platform UI before publishing."
+      ]
+    },
+    {
+      "sequence": 3,
+      "promptId": "2026-05-05-gray-brick-streetlamp-y2k-ootd-03-brick-wall-close-crop",
+      "title": "Brick wall close crop",
+      "topCategory": "real-human",
+      "subCategory": "outdoor-street",
+      "scene": "street",
+      "skinTone": "light",
+      "appeal": "cool",
+      "subject": "female",
+      "prompt": "Use case: photorealistic-natural\nAsset type: vertical 9:16 social-fashion image for 2026-05-05-gray-brick-streetlamp-y2k-ootd\nPrimary request: create one original image with the same subject grammar as the provided references: adult Y2K streetwear OOTD, gray-brick old street, black lamp pole, direct flash, white sleeveless crop tank, heavily distressed baggy jeans. It must not be an identical copy.\nSubject: fictional non-identifiable adult East Asian female fashion model, clearly 22+, long dark-brown loose hair, dark washed newsboy cap, clear face, cool calm expression, real human proportions, natural hands.\nOutfit: white sleeveless cropped graphic tank with abstract unreadable print, black choker, thin layered necklace, white belt, oversized light-wash baggy jeans with heavy ripped panels and frayed openings, black platform sandals, silver shoulder bag, black wrist cuff, rings and bracelets, phone in hand.\nScene/backdrop: narrow gray-brick old street, black utility pole, dark recessed window and wooden door behind, subtle wall stains and mortar texture, no exact visible place markers.\nComposition/framing: three-quarter close street portrait from knees up, body angled toward the pole, one hand at waistband, one hand holding phone and bag strap, direct calm gaze; vertical 9:16 close OOTD crop, 35mm compact camera look, face clear, top and distressed jeans details readable.\nStyle/medium: photorealistic compact-camera night street editorial, Xiaohongshu/Douyin OOTD energy without app UI, direct-flash snapshot, cross-processed cool blue-gray shadows, detailed brick and denim texture, slight phone-camera grain.\nLighting/mood: direct flash with cool ambient fill, glossy highlights on hair, textured bricks visible, shadow edge behind the pole.\nReference tag mood: #Y2K穿搭 #辣妹穿搭 #破洞牛仔裤穿搭 #街拍 #夜景街拍 #闪光灯拍照 #老街拍照 #路灯拍照 #OOTD #fitcheck #轻亚辣妹y2k穿搭 #轻熟穿搭 #晒出你的辣妹穿搭 #我的春日穿搭look #今日穿搭look #ootd穿搭只为取悦自己 #牛仔 #y2k.\nRequired variation: crop and expression differ from the source, change wall geometry and accessories placement, no copied face or exact text.\nRare-style layer: nocturnal direct-flash street editorial, cross-processed slide-film color, urban texture realism, compact-camera fit-check framing.\nConstraints: original non-identifiable model only; same outfit category and scene language, but different face, pose, wall geometry, lamp position, crop, and micro-accessories; no exact source image recreation.\nAvoid: avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, no minors, no teen-coded body, no celebrity likeness, no creator likeness, no watermark, no readable social app UI, no readable street number, no brand logos, no duplicated limbs, no broken fingers, no deformed shoes, no plastic skin, no extreme sexualized pose.",
+      "referenceFile": "workflow/output/references/social/2026-05-05-gray-brick-streetlamp-y2k-ootd/reference-003.webp",
+      "referenceSourceUrl": "https://huaban.com/pins/6088940971",
+      "sourceFiles": [
+        "workflow/output/images/2026-05-05/real-human/outdoor-street/street/light/cool/img-003-real-human-outdoor-street-street-light-cool-female-v1.png"
+      ],
+      "backupFiles": [
+        "workflow/output/backups/codex/2026-05-05/2026-05-05-gray-brick-streetlamp-y2k-ootd/003-2026-05-05-gray-brick-streetlamp-y2k-ootd-03-brick-wall-close-crop.png"
+      ],
+      "stagingFiles": [
+        "workflow/output/imagegen/2026-05-05-gray-brick-streetlamp-y2k-ootd/003-2026-05-05-gray-brick-streetlamp-y2k-ootd-03-brick-wall-close-crop.png"
+      ],
+      "selectedFile": "workflow/output/selected/2026-05-05/real-human/outdoor-street/street/light/cool/img-003-real-human-outdoor-street-street-light-cool-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Selected as the first-pass output for this prompt: it preserves the adult Y2K gray-brick streetlamp OOTD subject, fit-check readability, and original non-identifiable model constraint.",
+      "failureReasons": [
+        "Manual visual QA is still recommended for hands, face, readable text, and accidental platform UI before publishing."
+      ]
+    }
+  ]
+}

@@ -15,6 +15,7 @@
 1. **必须**先建 results manifest，再跑 `organize_batch_outputs.py`，由脚本统一改名。
 2. **必须**每天运行前先 `bootstrap_daily_journal.py`，当天所有产出都要回链到当日日记。
 3. **必须**在 `selected/` 每一个分类子目录里放一个 `README.md`，标明这个目录的筛选标准（比例、风格、禁忌项）。
+4. **必须**先把外部 Codex 产图复制进 `workflow/output/backups/codex/<日期>/<jobName>/`，再把这份备份路径写进 `sourceFiles`。优先用 `scripts/import_codex_outputs.py` 自动完成。
 
 ## 3. 命名构造
 
@@ -66,3 +67,4 @@ workflow/output/
 | `reports/` 里两份同名报告 | 两次 manifest 同名 | `jobName` 前缀加 `YYYY-MM-DD-` |
 | `selected/` 比 `draft/` 多文件 | 选了 draft 外的图 | 回源头 `sourceFiles`，禁止手贴图 |
 | 文件夹深度突然只有 4 层 | `scene/skinTone/appeal` 缺字段 | 不补救下游，退回 queue |
+| 外部 Codex 目录里的图和 workflow 内溯源断开 | 只保留了外部目录，没有回收备份 | 先跑 `import_codex_outputs.py`，让 `sourceFiles` 指向 workflow 内备份副本 |

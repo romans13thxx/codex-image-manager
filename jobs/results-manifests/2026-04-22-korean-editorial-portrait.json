@@ -1,0 +1,59 @@
+{
+  "jobName": "2026-04-22-korean-editorial-portrait",
+  "jobDate": "2026-04-22",
+  "reportName": "2026-04-22-korean-editorial-portrait-selection-report.md",
+  "entries": [
+    {
+      "sequence": 1,
+      "promptId": "manual-2026-04-22-korean-editorial-portrait-01",
+      "title": "Korean editorial floor seated portrait 01",
+      "topCategory": "real-human",
+      "subCategory": "home-lifestyle",
+      "scene": "indoor-home",
+      "skinTone": "warm-yellow",
+      "appeal": "elegant",
+      "subject": "female",
+      "styleTags": [
+        "editorial",
+        "black-mist-filter",
+        "muted-cinematic",
+        "floor-seated",
+        "negative-space",
+        "9x16"
+      ],
+      "sourceFiles": [
+        "output/images/2026-04-22/real-human/korean-editorial-portrait/korean-editorial-portrait-01.png"
+      ],
+      "selectedFile": "output/selected/2026-04-22/real-human/korean-editorial-portrait/korean-editorial-portrait-01.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Matches the requested quiet high-end editorial mood, off-center vertical composition, modest styling, and relaxed asymmetric seated pose.",
+      "failureReasons": []
+    },
+    {
+      "sequence": 2,
+      "promptId": "manual-2026-04-22-korean-editorial-portrait-02",
+      "title": "Korean editorial floor seated portrait 02",
+      "topCategory": "real-human",
+      "subCategory": "home-lifestyle",
+      "scene": "indoor-home",
+      "skinTone": "warm-yellow",
+      "appeal": "elegant",
+      "subject": "female",
+      "styleTags": [
+        "editorial",
+        "black-mist-filter",
+        "muted-tones",
+        "floor-seated",
+        "asymmetrical-posture",
+        "9x16"
+      ],
+      "sourceFiles": [
+        "output/images/2026-04-22/real-human/korean-editorial-portrait/korean-editorial-portrait-02.png"
+      ],
+      "selectedFile": "output/selected/2026-04-22/real-human/korean-editorial-portrait/korean-editorial-portrait-02.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Keeps the same realistic editorial look while providing a second pose and framing variation.",
+      "failureReasons": []
+    }
+  ]
+}

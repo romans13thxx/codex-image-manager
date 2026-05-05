@@ -1,0 +1,126 @@
+{
+  "jobName": "2026-05-04-american-baddie-blonde-ootd",
+  "jobDate": "2026-05-04",
+  "reportName": "2026-05-04-american-baddie-blonde-ootd-selection-report.md",
+  "sourceType": "codex-imagegen",
+  "promptFile": "workflow/output/references/social/2026-05-04-american-baddie-blonde-ootd/generation-prompts.jsonl",
+  "backupDir": "workflow/output/backups/codex/2026-05-04/2026-05-04-american-baddie-blonde-ootd",
+  "entries": [
+    {
+      "sequence": 1,
+      "promptId": "2026-05-04-american-baddie-blonde-ootd-01-street-crosswalk-fitcheck",
+      "title": "Street crosswalk fit check",
+      "topCategory": "real-human",
+      "subCategory": "outdoor-street",
+      "scene": "street",
+      "skinTone": "light",
+      "appeal": "cool",
+      "subject": "female",
+      "prompt": "Use case: photorealistic-natural\nAsset type: vertical 9:16 social-fashion image for 2026-05-04-american-baddie-blonde-ootd\nPrimary request: create an original adult \"American baddie\" blonde OOTD fashion image with the same subject grammar as the seed tags, not the same real person.\nSubject: adult female fashion model, clearly 22+, blonde hair with soft waves, confident cool expression, real human proportions, clear face, natural hands.\nScene/backdrop: downtown sidewalk at golden hour, crosswalk stripes, parked cars, glass storefront reflections.\nOutfit: black cropped leather jacket, fitted white baby tee, low-rise faded denim mini skirt, black knee-high boots, slim belt, tiny shoulder bag.\nComposition/framing: full-body fit-check stance, one hand lifting sunglasses, one knee relaxed forward, confident direct gaze; vertical 9:16 phone-photo crop, full-body or three-quarter OOTD readability, candid Xiaohongshu/Douyin-style fashion post energy without platform UI.\nStyle/medium: photorealistic compact-camera fashion editorial, light grain, slight motion imperfection, point-and-shoot flash, cross-processed slide-film color, early-fall cool-girl styling.\nLighting/mood: late-afternoon sun mixed with small on-camera flash, crisp shadow, compact-camera realism.\nReference tag mood: #美式辣妹 #金发 #我的穿搭日记 #又酷又飒的早秋ootd #辣妹穿搭 #ootd穿搭 #fitcheck #ootd #今天穿什么 #今天长这样 #美式复古 #欧美穿搭.\nConstraints: original non-identifiable model only; do not copy any creator, celebrity, watermark, username, platform interface, or exact source image; keep clothing and pose readable.\nAvoid: avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, no minors, no teen-coded body, no celebrity likeness, no watermark, no readable social app UI, no brand logos, no duplicated limbs, no broken fingers, no deformed shoes, no plastic skin, no extreme sexualized pose.",
+      "referenceFile": "workflow/output/references/social/2026-05-04-american-baddie-blonde-ootd/reference-001.jpg",
+      "referenceSourceUrl": "https://soushou.tuchong.com/136455870/",
+      "sourceFiles": [
+        "workflow/output/images/2026-05-04/real-human/outdoor-street/street/light/cool/img-001-real-human-outdoor-street-street-light-cool-female-v1.png"
+      ],
+      "backupFiles": [
+        "workflow/output/backups/codex/2026-05-04/2026-05-04-american-baddie-blonde-ootd/001-2026-05-04-american-baddie-blonde-ootd-01-street-crosswalk-fitcheck.png"
+      ],
+      "stagingFiles": [
+        "workflow/output/imagegen/2026-05-04-american-baddie-blonde-ootd/001-2026-05-04-american-baddie-blonde-ootd-01-street-crosswalk-fitcheck.png"
+      ],
+      "selectedFile": "workflow/output/selected/2026-05-04/real-human/outdoor-street/street/light/cool/img-001-real-human-outdoor-street-street-light-cool-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Selected as the first-pass output for this prompt: it preserves the adult blonde American baddie OOTD subject, fit-check readability, and original non-identifiable model constraint.",
+      "failureReasons": [
+        "Manual visual QA is still recommended for hands, face, readable text, and accidental platform UI before publishing."
+      ]
+    },
+    {
+      "sequence": 2,
+      "promptId": "2026-05-04-american-baddie-blonde-ootd-02-parking-lot-paparazzi",
+      "title": "Parking lot paparazzi flash",
+      "topCategory": "real-human",
+      "subCategory": "outdoor-street",
+      "scene": "street",
+      "skinTone": "light",
+      "appeal": "cool",
+      "subject": "female",
+      "prompt": "Use case: photorealistic-natural\nAsset type: vertical 9:16 social-fashion image for 2026-05-04-american-baddie-blonde-ootd\nPrimary request: create an original adult \"American baddie\" blonde OOTD fashion image with the same subject grammar as the seed tags, not the same real person.\nSubject: adult female fashion model, clearly 22+, blonde hair with soft waves, confident cool expression, real human proportions, clear face, natural hands.\nScene/backdrop: generic outdoor parking lot with blue-gray asphalt, concrete curb, anonymous retail wall, no readable signs.\nOutfit: charcoal tube top, cropped moto vest, low-rise cargo mini skirt, chunky black platform boots, silver hoops, stacked bracelets.\nComposition/framing: three-quarter walking pose, hair moving, looking back over shoulder, one hand holding a small silver phone; vertical 9:16 phone-photo crop, full-body or three-quarter OOTD readability, candid Xiaohongshu/Douyin-style fashion post energy without platform UI.\nStyle/medium: photorealistic compact-camera fashion editorial, light grain, slight motion imperfection, point-and-shoot flash, cross-processed slide-film color, early-fall cool-girl styling.\nLighting/mood: hard sun from the side plus direct fill flash, slight lens flare, point-and-shoot snapshot texture.\nReference tag mood: #美式辣妹 #金发 #我的穿搭日记 #又酷又飒的早秋ootd #辣妹穿搭 #ootd穿搭 #fitcheck #ootd #今天穿什么 #今天长这样 #美式复古 #欧美穿搭.\nConstraints: original non-identifiable model only; do not copy any creator, celebrity, watermark, username, platform interface, or exact source image; keep clothing and pose readable.\nAvoid: avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, no minors, no teen-coded body, no celebrity likeness, no watermark, no readable social app UI, no brand logos, no duplicated limbs, no broken fingers, no deformed shoes, no plastic skin, no extreme sexualized pose.",
+      "referenceFile": "workflow/output/references/social/2026-05-04-american-baddie-blonde-ootd/reference-002.webp",
+      "referenceSourceUrl": "https://huaban.com/pins/5794459105",
+      "sourceFiles": [
+        "workflow/output/images/2026-05-04/real-human/outdoor-street/street/light/cool/img-002-real-human-outdoor-street-street-light-cool-female-v1.png"
+      ],
+      "backupFiles": [
+        "workflow/output/backups/codex/2026-05-04/2026-05-04-american-baddie-blonde-ootd/002-2026-05-04-american-baddie-blonde-ootd-02-parking-lot-paparazzi.png"
+      ],
+      "stagingFiles": [
+        "workflow/output/imagegen/2026-05-04-american-baddie-blonde-ootd/002-2026-05-04-american-baddie-blonde-ootd-02-parking-lot-paparazzi.png"
+      ],
+      "selectedFile": "workflow/output/selected/2026-05-04/real-human/outdoor-street/street/light/cool/img-002-real-human-outdoor-street-street-light-cool-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Selected as the first-pass output for this prompt: it preserves the adult blonde American baddie OOTD subject, fit-check readability, and original non-identifiable model constraint.",
+      "failureReasons": [
+        "Manual visual QA is still recommended for hands, face, readable text, and accidental platform UI before publishing."
+      ]
+    },
+    {
+      "sequence": 3,
+      "promptId": "2026-05-04-american-baddie-blonde-ootd-03-mirror-selfie-denim",
+      "title": "Denim mirror selfie OOTD",
+      "topCategory": "real-human",
+      "subCategory": "outdoor-street",
+      "scene": "street",
+      "skinTone": "light",
+      "appeal": "cool",
+      "subject": "female",
+      "prompt": "Use case: photorealistic-natural\nAsset type: vertical 9:16 social-fashion image for 2026-05-04-american-baddie-blonde-ootd\nPrimary request: create an original adult \"American baddie\" blonde OOTD fashion image with the same subject grammar as the seed tags, not the same real person.\nSubject: adult female fashion model, clearly 22+, blonde hair with soft waves, confident cool expression, real human proportions, clear face, natural hands.\nScene/backdrop: clean apartment hallway mirror, white wall, coat rack edge, soft daylight from one side.\nOutfit: cropped vintage varsity jacket, pale ribbed tank, low-rise wide-leg jeans, pointed black ankle boots, layered necklaces.\nComposition/framing: standing mirror selfie, phone partly covering cheek but face still readable, hip angled, free hand at waist; vertical 9:16 phone-photo crop, full-body or three-quarter OOTD readability, candid Xiaohongshu/Douyin-style fashion post energy without platform UI.\nStyle/medium: photorealistic compact-camera fashion editorial, light grain, slight motion imperfection, point-and-shoot flash, cross-processed slide-film color, early-fall cool-girl styling.\nLighting/mood: natural window light with mild flash reflection, handheld phone crop, realistic mirror depth.\nReference tag mood: #美式辣妹 #金发 #我的穿搭日记 #又酷又飒的早秋ootd #辣妹穿搭 #ootd穿搭 #fitcheck #ootd #今天穿什么 #今天长这样 #美式复古 #欧美穿搭.\nConstraints: original non-identifiable model only; do not copy any creator, celebrity, watermark, username, platform interface, or exact source image; keep clothing and pose readable.\nAvoid: avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, no minors, no teen-coded body, no celebrity likeness, no watermark, no readable social app UI, no brand logos, no duplicated limbs, no broken fingers, no deformed shoes, no plastic skin, no extreme sexualized pose.",
+      "referenceFile": "workflow/output/references/social/2026-05-04-american-baddie-blonde-ootd/reference-003.webp",
+      "referenceSourceUrl": "https://huaban.com/pins/6163937440",
+      "sourceFiles": [
+        "workflow/output/images/2026-05-04/real-human/outdoor-street/street/light/cool/img-003-real-human-outdoor-street-street-light-cool-female-v1.png"
+      ],
+      "backupFiles": [
+        "workflow/output/backups/codex/2026-05-04/2026-05-04-american-baddie-blonde-ootd/003-2026-05-04-american-baddie-blonde-ootd-03-mirror-selfie-denim.png"
+      ],
+      "stagingFiles": [
+        "workflow/output/imagegen/2026-05-04-american-baddie-blonde-ootd/003-2026-05-04-american-baddie-blonde-ootd-03-mirror-selfie-denim.png"
+      ],
+      "selectedFile": "workflow/output/selected/2026-05-04/real-human/outdoor-street/street/light/cool/img-003-real-human-outdoor-street-street-light-cool-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Selected as the first-pass output for this prompt: it preserves the adult blonde American baddie OOTD subject, fit-check readability, and original non-identifiable model constraint.",
+      "failureReasons": [
+        "Manual visual QA is still recommended for hands, face, readable text, and accidental platform UI before publishing."
+      ]
+    },
+    {
+      "sequence": 4,
+      "promptId": "2026-05-04-american-baddie-blonde-ootd-04-rooftop-early-fall",
+      "title": "Early fall rooftop cool girl",
+      "topCategory": "real-human",
+      "subCategory": "outdoor-street",
+      "scene": "street",
+      "skinTone": "light",
+      "appeal": "cool",
+      "subject": "female",
+      "prompt": "Use case: photorealistic-natural\nAsset type: vertical 9:16 social-fashion image for 2026-05-04-american-baddie-blonde-ootd\nPrimary request: create an original adult \"American baddie\" blonde OOTD fashion image with the same subject grammar as the seed tags, not the same real person.\nSubject: adult female fashion model, clearly 22+, blonde hair with soft waves, confident cool expression, real human proportions, clear face, natural hands.\nScene/backdrop: urban rooftop parking deck, pale concrete, metal railing, distant city blocks, warm early-fall sky.\nOutfit: oversized black bomber jacket off one shoulder, fitted gray crop top, low-rise denim shorts over sheer black tights, pointed boots, narrow sunglasses.\nComposition/framing: leaning against railing, one elbow back, chin slightly lifted, legs crossed at ankle, cool unsmiling expression; vertical 9:16 phone-photo crop, full-body or three-quarter OOTD readability, candid Xiaohongshu/Douyin-style fashion post energy without platform UI.\nStyle/medium: photorealistic compact-camera fashion editorial, light grain, slight motion imperfection, point-and-shoot flash, cross-processed slide-film color, early-fall cool-girl styling.\nLighting/mood: cool dusk ambient with direct compact flash, subtle film grain, high-detail fashion editorial.\nReference tag mood: #美式辣妹 #金发 #我的穿搭日记 #又酷又飒的早秋ootd #辣妹穿搭 #ootd穿搭 #fitcheck #ootd #今天穿什么 #今天长这样 #美式复古 #欧美穿搭.\nConstraints: original non-identifiable model only; do not copy any creator, celebrity, watermark, username, platform interface, or exact source image; keep clothing and pose readable.\nAvoid: avoid generic modern minimalism, avoid random extra text, avoid messy symbols, avoid distorted hands/faces, avoid losing subject identity, no minors, no teen-coded body, no celebrity likeness, no watermark, no readable social app UI, no brand logos, no duplicated limbs, no broken fingers, no deformed shoes, no plastic skin, no extreme sexualized pose.",
+      "referenceFile": "workflow/output/references/social/2026-05-04-american-baddie-blonde-ootd/reference-004.webp",
+      "referenceSourceUrl": "https://huaban.com/pins/5561114085",
+      "sourceFiles": [
+        "workflow/output/images/2026-05-04/real-human/outdoor-street/street/light/cool/img-004-real-human-outdoor-street-street-light-cool-female-v1.png"
+      ],
+      "backupFiles": [
+        "workflow/output/backups/codex/2026-05-04/2026-05-04-american-baddie-blonde-ootd/004-2026-05-04-american-baddie-blonde-ootd-04-rooftop-early-fall.png"
+      ],
+      "stagingFiles": [
+        "workflow/output/imagegen/2026-05-04-american-baddie-blonde-ootd/004-2026-05-04-american-baddie-blonde-ootd-04-rooftop-early-fall.png"
+      ],
+      "selectedFile": "workflow/output/selected/2026-05-04/real-human/outdoor-street/street/light/cool/img-004-real-human-outdoor-street-street-light-cool-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Selected as the first-pass output for this prompt: it preserves the adult blonde American baddie OOTD subject, fit-check readability, and original non-identifiable model constraint.",
+      "failureReasons": [
+        "Manual visual QA is still recommended for hands, face, readable text, and accidental platform UI before publishing."
+      ]
+    }
+  ]
+}

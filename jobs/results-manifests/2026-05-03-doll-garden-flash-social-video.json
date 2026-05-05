@@ -1,0 +1,33 @@
+{
+  "jobName": "2026-05-03-doll-garden-flash-social-video",
+  "jobDate": "2026-05-03",
+  "reportName": "2026-05-03-doll-garden-flash-social-video-selection-report.md",
+  "entries": [
+    {
+      "sequence": 1,
+      "promptId": "manual-2026-05-03-doll-garden-flash-social-video-4panel",
+      "title": "Doll garden flash social-video 4-panel set",
+      "topCategory": "real-human",
+      "subCategory": "home-lifestyle",
+      "scene": "flower-sunroom",
+      "skinTone": "light",
+      "appeal": "cute",
+      "subject": "female",
+      "sourceFiles": [
+        "output/images/2026-05-03/real-human/home-lifestyle/flower-sunroom/light/cute/img-001-real-human-home-lifestyle-flower-sunroom-light-cute-female-v1.png",
+        "output/images/2026-05-03/real-human/home-lifestyle/flower-sunroom/light/cute/img-002-real-human-home-lifestyle-flower-sunroom-light-cute-female-clean-v2.png"
+      ],
+      "backupFiles": [
+        "output/backups/codex/2026-05-03/2026-05-03-doll-garden-flash-social-video/codex-raw-4panel-v1.png",
+        "output/backups/codex/2026-05-03/2026-05-03-doll-garden-flash-social-video/codex-raw-4panel-clean-v2.png"
+      ],
+      "selectedFile": "output/selected/2026-05-03/real-human/home-lifestyle/flower-sunroom/light/cute/img-001-real-human-home-lifestyle-flower-sunroom-light-cute-female-final.png",
+      "selectedSourceIndex": 2,
+      "selectionReason": "The selected clean 4-panel preview preserves the reusable grammar: pastel flower sunroom, lace/glass layering, powder-blue chiffon styling, transparent umbrella, and plush counter variation. It removes app interface elements such as search bars, play buttons, like/comment/share icons, captions, dates, hashtags, usernames, logos, and watermarks.",
+      "failureReasons": [
+        "v1 included unwanted UI overlay elements and has been superseded by the clean v2 selection.",
+        "Panel-level hand details should be checked again if these are split into separate 9:16 final assets."
+      ]
+    }
+  ]
+}

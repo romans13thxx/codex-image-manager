@@ -1,0 +1,33 @@
+{
+  "jobName": "2026-04-22-basketball-flash-editorial",
+  "jobDate": "2026-04-22",
+  "reportName": "2026-04-22-basketball-flash-editorial-selection-report.md",
+  "sourceType": "codex-import",
+  "backupDir": "workflow/output/backups/codex/2026-04-22/2026-04-22-basketball-flash-editorial",
+  "entries": [
+    {
+      "sequence": 1,
+      "promptId": "2026-04-22-basketball-flash-editorial",
+      "title": "35mm direct-flash basketball court editorial portraits",
+      "topCategory": "real-human",
+      "subCategory": "sports",
+      "scene": "court-dusk",
+      "skinTone": "natural",
+      "appeal": "editorial",
+      "subject": "female",
+      "sourceFiles": [
+        "workflow/output/backups/codex/2026-04-22/2026-04-22-basketball-flash-editorial/001-ig_09bbfb686ff204f50169e876450cf88198ae305bcffa4c61cc.png",
+        "workflow/output/backups/codex/2026-04-22/2026-04-22-basketball-flash-editorial/002-ig_09bbfb686ff204f50169e876a35b2881989fba7ca149e04173.png",
+        "workflow/output/backups/codex/2026-04-22/2026-04-22-basketball-flash-editorial/003-ig_09bbfb686ff204f50169e877063f508198acd856eecd5ab202.png"
+      ],
+      "originalSourceFiles": [
+        "C:/Users/wf/.codex/generated_images/019db40d-c30a-73e3-a5a0-65d6b95284ff/ig_09bbfb686ff204f50169e876450cf88198ae305bcffa4c61cc.png",
+        "C:/Users/wf/.codex/generated_images/019db40d-c30a-73e3-a5a0-65d6b95284ff/ig_09bbfb686ff204f50169e876a35b2881989fba7ca149e04173.png",
+        "C:/Users/wf/.codex/generated_images/019db40d-c30a-73e3-a5a0-65d6b95284ff/ig_09bbfb686ff204f50169e877063f508198acd856eecd5ab202.png"
+      ],
+      "selectedSourceIndex": 1,
+      "selectionReason": "Imported as a three-variant 9:16 basketball court direct-flash editorial batch; first variant marked as the initial selected image.",
+      "failureReasons": []
+    }
+  ]
+}

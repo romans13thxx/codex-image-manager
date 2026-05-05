@@ -20,22 +20,42 @@ Use this skill when the user wants fully automated local image generation, batch
 9. `workflow/memory/permanent-memory.md` and `workflow/memory/user-preferences.md` (index stubs only — never write here).
 10. Prompt sources: `workflow/prompts/queue/`, `workflow/prompts/inbox/`, `gpt_image2_prompts.json`.
 
+## Capability preflight
+
+Before starting generation, verify at least one of these is true:
+
+1. The current Codex runtime exposes a real image-generation capability.
+2. The workspace or user has a configured external image API and a valid writable output path.
+
+If neither is true:
+
+- Do not say generation has started.
+- Do not load or cite guessed system paths such as `C:/Users/wf/.codex/skills/system/imaggen/SKILL.md`.
+- Switch to fallback mode: refresh the queue, create the job manifest, prepare the review checklist and daily journal entry, and optionally run `scripts/import_codex_outputs.py` for already-generated files.
+
 ## Required workflow
 
 When the user says `开始出图`, `批量出图`, `自动出图`, or `开始今天的出图流程`:
 
-1. Normalize the user's goal into a job spec; pin a `jobName` of the form `YYYY-MM-DD-<slug>`.
-2. Ensure today's daily journal exists (`workflow/memory/journals/daily/<year>/<date>.md`). Run `bootstrap_daily_journal.py` if missing.
-3. Refresh `workflow/prompts/queue/prompt_queue.jsonl` through `export_prompt_queue.py` — every entry must carry `topCategory`, `subCategory`, `scene`, `skinTone`, `appeal`, `subject`. Reject entries with missing axes; fix at the queue stage, not downstream.
-4. Create a job manifest under `workflow/jobs/<jobName>.md` (or `.json`) before any generation.
-5. For each prompt, generate the configured number of variants (default 3). Assign `2d-anime` / `3d` / `real-human` and the correct subcategory.
-6. Save raw variants under `workflow/output/images/<date>/<topCategory>/<subCategory>/<scene>/<skinTone>/<appeal>/`.
-7. Save the selected winner under `workflow/output/selected/<date>/...` using the same nested path.
-8. Update `workflow/jobs/results-manifests/<jobName>.json` with `sourceFiles`, `selectedSourceIndex`, `selectionReason`, `failureReasons`.
-9. Run `organize_batch_outputs.py --manifest ...` to enforce naming, produce the normalized manifest, and generate the selection report under `workflow/output/reports/`.
-10. Append the outcome to the daily journal: 分类概览, 成功结果, 失败原因, 命名与归档记录, 选图报告回链, 待验证假设, 可提升为长期记忆的候选.
-11. At end of day, only the "可提升" candidates confirmed ≥ 3 times move into `workflow/memory/permanent/` or `workflow/memory/preferences/`.
-12. For a named project, write project-specific lessons into `workflow/memory/projects/active/<slug>/lessons.md` instead of permanent memory.
+1. Run the capability preflight above. If it fails, stop after the fallback artifacts and do not fabricate image output.
+2. Normalize the user's goal into a job spec; pin a `jobName` of the form `YYYY-MM-DD-<slug>`.
+3. Ensure today's daily journal exists (`workflow/memory/journals/daily/<year>/<date>.md`). Run `bootstrap_daily_journal.py` if missing.
+4. Refresh `workflow/prompts/queue/prompt_queue.jsonl` through `export_prompt_queue.py` — every entry must carry `topCategory`, `subCategory`, `scene`, `skinTone`, `appeal`, `subject`. Reject entries with missing axes; fix at the queue stage, not downstream.
+5. Create a job manifest under `workflow/jobs/<jobName>.md` (or `.json`) before any generation.
+6. For each prompt, generate the configured number of variants (default 3). Assign `2d-anime` / `3d` / `real-human` and the correct subcategory.
+7. Save raw variants under `workflow/output/images/<date>/<topCategory>/<subCategory>/<scene>/<skinTone>/<appeal>/`.
+8. Save the selected winner under `workflow/output/selected/<date>/...` using the same nested path.
+9. Update `workflow/jobs/results-manifests/<jobName>.json` with `sourceFiles`, `selectedSourceIndex`, `selectionReason`, `failureReasons`.
+10. Run `organize_batch_outputs.py --manifest ...` to enforce naming, produce the normalized manifest, and generate the selection report under `workflow/output/reports/`.
+11. Append the outcome to the daily journal: 分类概览, 成功结果, 失败原因, 命名与归档记录, 选图报告回链, 待验证假设, 可提升为长期记忆的候选.
+12. At end of day, only the "可提升" candidates confirmed ≥ 3 times move into `workflow/memory/permanent/` or `workflow/memory/preferences/`.
+13. For a named project, write project-specific lessons into `workflow/memory/projects/active/<slug>/lessons.md` instead of permanent memory.
+
+If Codex generated images outside the workflow tree first:
+
+1. Run `scripts/import_codex_outputs.py` before `organize_batch_outputs.py`.
+2. Let it copy the images into `workflow/output/backups/codex/<date>/<jobName>/`.
+3. Use those backup copies as the only allowed `sourceFiles` entries for the manifest.
 
 ## File management discipline (teach the user by following it)
 

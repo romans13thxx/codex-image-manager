@@ -1,0 +1,97 @@
+{
+  "jobName": "2026-05-03-sunlit-glass-corridor-editorial",
+  "jobDate": "2026-05-03",
+  "reportName": "2026-05-03-sunlit-glass-corridor-editorial-selection-report.md",
+  "sourceType": "codex-chat-image-generation",
+  "note": "Built-in Codex image generation outputs were copied into workflow backups, organized raw folders, selected folders, and output/imagegen. Organizer scripts were mirrored manually because the local Python runtime is unavailable.",
+  "entries": [
+    {
+      "sequence": 1,
+      "promptId": "v01-vending-block-lean",
+      "title": "Sunlit glass corridor vending block lean",
+      "topCategory": "real-human",
+      "subCategory": "fashion-editorial",
+      "scene": "indoor-home",
+      "skinTone": "light",
+      "appeal": "cute",
+      "subject": "female",
+      "styleTags": ["sunlit-glass-corridor", "cross-processed-slide-film", "frosted-ui-overlay", "vending-block-lean", "9x16"],
+      "sourceFiles": [
+        "output/backups/codex/2026-05-03/2026-05-03-sunlit-glass-corridor-editorial/001-v01-vending-block-lean.png"
+      ],
+      "originalSourceFiles": [
+        "C:/Users/wf/.codex/generated_images/019dece7-2a3b-7220-b6ab-b3552c505d3a/ig_089eb7c53609e1ae0169f70604e6548191beb11dfaff033c6b.png"
+      ],
+      "selectedFile": "output/selected/2026-05-03/real-human/fashion-editorial/indoor-home/light/cute/img-001-real-human-fashion-editorial-indoor-home-light-cute-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Strongest match to the reference composition: window-grid geometry, white block lean, hard sunlight, cast shadow, rose-gold hair, plaid skirt, and faint screenshot UI are all readable.",
+      "failureReasons": []
+    },
+    {
+      "sequence": 2,
+      "promptId": "v03-corridor-walk-spin",
+      "title": "Sunlit glass corridor walking spin",
+      "topCategory": "real-human",
+      "subCategory": "fashion-editorial",
+      "scene": "indoor-home",
+      "skinTone": "light",
+      "appeal": "cute",
+      "subject": "female",
+      "styleTags": ["sunlit-glass-corridor", "cross-processed-slide-film", "frosted-ui-overlay", "walking-spin", "9x16"],
+      "sourceFiles": [
+        "output/backups/codex/2026-05-03/2026-05-03-sunlit-glass-corridor-editorial/002-v03-corridor-walk-spin.png"
+      ],
+      "originalSourceFiles": [
+        "C:/Users/wf/.codex/generated_images/019dece7-2a3b-7220-b6ab-b3552c505d3a/ig_089eb7c53609e1ae0169f706e2c1d0819198b6550c86c375ca.png"
+      ],
+      "selectedFile": "output/selected/2026-05-03/real-human/fashion-editorial/indoor-home/light/cute/img-002-real-human-fashion-editorial-indoor-home-light-cute-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Good motion variant for the set: walking profile, bag swing, yellow panel, floor reflections, and long window shadows keep the series varied while staying on style.",
+      "failureReasons": []
+    },
+    {
+      "sequence": 3,
+      "promptId": "v04-window-crouch",
+      "title": "Sunlit glass corridor window crouch",
+      "topCategory": "real-human",
+      "subCategory": "fashion-editorial",
+      "scene": "indoor-home",
+      "skinTone": "light",
+      "appeal": "cute",
+      "subject": "female",
+      "styleTags": ["sunlit-glass-corridor", "cross-processed-slide-film", "frosted-ui-overlay", "window-crouch", "9x16"],
+      "sourceFiles": [
+        "output/backups/codex/2026-05-03/2026-05-03-sunlit-glass-corridor-editorial/003-v04-window-crouch.png"
+      ],
+      "originalSourceFiles": [
+        "C:/Users/wf/.codex/generated_images/019dece7-2a3b-7220-b6ab-b3552c505d3a/ig_089eb7c53609e1ae0169f707956f108191ad63e734796fa7ab.png"
+      ],
+      "selectedFile": "output/selected/2026-05-03/real-human/fashion-editorial/indoor-home/light/cute/img-003-real-human-fashion-editorial-indoor-home-light-cute-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Crouch pose is clean and usable: face remains readable, backpack and shoes are clear, and the horizontal window rail reproduces the reference's low pose structure.",
+      "failureReasons": []
+    },
+    {
+      "sequence": 4,
+      "promptId": "v05-window-touch-turn",
+      "title": "Sunlit glass corridor window touch turn",
+      "topCategory": "real-human",
+      "subCategory": "fashion-editorial",
+      "scene": "indoor-home",
+      "skinTone": "light",
+      "appeal": "cute",
+      "subject": "female",
+      "styleTags": ["sunlit-glass-corridor", "cross-processed-slide-film", "frosted-ui-overlay", "window-touch-turn", "9x16"],
+      "sourceFiles": [
+        "output/backups/codex/2026-05-03/2026-05-03-sunlit-glass-corridor-editorial/004-v05-window-touch-turn.png"
+      ],
+      "originalSourceFiles": [
+        "C:/Users/wf/.codex/generated_images/019dece7-2a3b-7220-b6ab-b3552c505d3a/ig_089eb7c53609e1ae0169f7084216008191a5eb4c4cc35d4e57.png"
+      ],
+      "selectedFile": "output/selected/2026-05-03/real-human/fashion-editorial/indoor-home/light/cute/img-004-real-human-fashion-editorial-indoor-home-light-cute-female-final.png",
+      "selectedSourceIndex": 1,
+      "selectionReason": "Best close standing/window-touch variant: hand placement, backpack, glass rail, and profile turn are clear with no visible UI or anatomy failures.",
+      "failureReasons": []
+    }
+  ]
+}
